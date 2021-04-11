@@ -161,7 +161,7 @@
 			<primitive>	hull_wireShape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPWIRE_PBS_Hull	</identifier>
+					<identifier>	SHIPWIREX_PBS_Hull	</identifier>
 					<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/JAS007_Kawanishi_E15K1_wire.mfm	</mfm>
 				</material>
 			</primitiveGroup>
