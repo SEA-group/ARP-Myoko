@@ -119,7 +119,7 @@
 			<primitive>	hull_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	PBS_Plane	</identifier>
+					<identifier>	PBSX_Plane	</identifier>
 					<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/JAS007_Kawanishi_E15K1.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -133,7 +133,7 @@
 			<primitive>	chassis_off_BlendBone_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	PBS_Plane	</identifier>
+					<identifier>	PBSX_Plane	</identifier>
 					<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/JAS007_Kawanishi_E15K1.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -147,7 +147,7 @@
 			<primitive>	chassis_on_BlendBone_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	PBS_Plane	</identifier>
+					<identifier>	PBSX_Plane	</identifier>
 					<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/JAS007_Kawanishi_E15K1.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -161,7 +161,7 @@
 			<primitive>	hull_wire_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPWIREX_PBS_Hull	</identifier>
+					<identifier>	SHIPWIREX_PBSX_Hull	</identifier>
 					<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/JAS007_Kawanishi_E15K1_wire.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -189,7 +189,7 @@
 			<primitive>	disc_cap_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	PBS_Plane	</identifier>
+					<identifier>	PBSX_Plane	</identifier>
 					<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/JAS007_Kawanishi_E15K1.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -217,7 +217,7 @@
 			<primitive>	disc_cap_1_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	PBS_Plane	</identifier>
+					<identifier>	PBSX_Plane	</identifier>
 					<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/JAS007_Kawanishi_E15K1.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -231,7 +231,7 @@
 			<primitive>	mod_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	PBS_Plane	</identifier>
+					<identifier>	PBSX_Plane	</identifier>
 					<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/JAS007_Kawanishi_E15K1.mfm	</mfm>
 				</material>
 			</primitiveGroup>
