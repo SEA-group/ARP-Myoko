@@ -1,240 +1,412 @@
 <JAS007_Kawanishi_E15K1.visual>
+	<skeleton>
+		<node>
+			<identifier>	Scene Root	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	hull	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+					<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	chassis_off_BlendBone	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+						<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	chassis_on_BlendBone	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+						<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	hull_wire	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+						<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	propeller_mod_l	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+						<row3>	0.000000 0.183758 0.197232 1.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	disc	</identifier>
+						<transform>
+							<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+							<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+							<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+							<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	disc_cap	</identifier>
+							<transform>
+								<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+								<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+								<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+								<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+							</transform>
+						</node>
+					</node>
+				</node>
+				<node>
+					<identifier>	propeller_mod_r	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+						<row3>	0.000000 0.183758 0.215107 1.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	disc_1	</identifier>
+						<transform>
+							<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+							<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+							<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+							<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	disc_cap_1	</identifier>
+							<transform>
+								<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+								<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+								<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+								<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+							</transform>
+						</node>
+					</node>
+				</node>
+				<node>
+					<identifier>	mod	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+						<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+					</transform>
+				</node>
+			</node>
+		</node>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
 	<boundingBox>
 		<min>	-0.464715 -0.006599 -0.430898	</min>
 		<max>	0.464715 0.324727 0.342488	</max>
 	</boundingBox>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.000000 0.000000 0.000000	</row0>
-			<row1>	0.000000 1.000000 0.000000	</row1>
-			<row2>	0.000000 0.000000 1.000000	</row2>
-			<row3>	0.000000 0.000000 0.000000	</row3>
-		</transform>
-		<node>
-			<identifier>	hull	</identifier>
-			<transform>
-				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
-			</transform>
-			<node>
-				<identifier>	chassis_off_BlendBone	</identifier>
-				<transform>
-					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	chassis_on_BlendBone	</identifier>
-				<transform>
-					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	hull_wire	</identifier>
-				<transform>
-					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	propeller_mod_l	</identifier>
-				<transform>
-					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					<row3>	0.000000 0.183758 0.197232 1.000000	</row3>
-				</transform>
-				<node>
-					<identifier>	disc	</identifier>
-					<transform>
-						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-						<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-						<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
-					</transform>
-					<node>
-						<identifier>	disc_cap	</identifier>
-						<transform>
-							<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-							<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-							<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-							<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
-						</transform>
-					</node>
-				</node>
-			</node>
-			<node>
-				<identifier>	propeller_mod_r	</identifier>
-				<transform>
-					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					<row3>	0.000000 0.183758 0.215107 1.000000	</row3>
-				</transform>
-				<node>
-					<identifier>	disc_1	</identifier>
-					<transform>
-						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-						<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-						<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
-					</transform>
-					<node>
-						<identifier>	disc_cap_1	</identifier>
-						<transform>
-							<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-							<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-							<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-							<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
-						</transform>
-					</node>
-				</node>
-			</node>
-			<node>
-				<identifier>	mod	</identifier>
-				<transform>
-					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
-				</transform>
-			</node>
-		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	hull	</node>
-		<geometry>
-			<vertices>	hullShape.vertices	</vertices>
-			<primitive>	hullShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	PBSX_Plane	</identifier>
-					<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/JAS007_Kawanishi_E15K1.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	chassis_off_BlendBone	</node>
-		<geometry>
-			<vertices>	chassis_off_BlendBoneShape.vertices	</vertices>
-			<primitive>	chassis_off_BlendBoneShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	PBSX_Plane	</identifier>
-					<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/JAS007_Kawanishi_E15K1.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	chassis_on_BlendBone	</node>
-		<geometry>
-			<vertices>	chassis_on_BlendBoneShape.vertices	</vertices>
-			<primitive>	chassis_on_BlendBoneShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	PBSX_Plane	</identifier>
-					<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/JAS007_Kawanishi_E15K1.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	hull_wire	</node>
-		<geometry>
-			<vertices>	hull_wireShape.vertices	</vertices>
-			<primitive>	hull_wireShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPWIREX_PBSX_Hull	</identifier>
-					<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/JAS007_Kawanishi_E15K1_wire.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	disc	</node>
-		<geometry>
-			<vertices>	discShape.vertices	</vertices>
-			<primitive>	discShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	PROPELLERMAT_propeller	</identifier>
-					<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/Japan_Disk_2Blade_03_alpha.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	disc_cap	</node>
-		<geometry>
-			<vertices>	disc_capShape.vertices	</vertices>
-			<primitive>	disc_capShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	PBSX_Plane	</identifier>
-					<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/JAS007_Kawanishi_E15K1.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	disc_1	</node>
-		<geometry>
-			<vertices>	disc_1Shape.vertices	</vertices>
-			<primitive>	disc_1Shape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	PROPELLERMAT_propeller	</identifier>
-					<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/Japan_Disk_2Blade_03_alpha.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	disc_cap_1	</node>
-		<geometry>
-			<vertices>	disc_cap_1Shape.vertices	</vertices>
-			<primitive>	disc_cap_1Shape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	PBSX_Plane	</identifier>
-					<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/JAS007_Kawanishi_E15K1.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	mod	</node>
-		<geometry>
-			<vertices>	modShape.vertices	</vertices>
-			<primitive>	modShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	PBSX_Plane	</identifier>
-					<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/JAS007_Kawanishi_E15K1.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	<renderSets>
+		<renderSet>
+			<name>	hullShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	hull	</node>
+			</nodes>
+			<material>
+				<identifier>	PBSX_Plane	</identifier>
+				<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/JAS007_Kawanishi_E15K1.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	chassis_off_BlendBoneShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	chassis_off_BlendBone	</node>
+			</nodes>
+			<material>
+				<identifier>	PBSX_Plane	</identifier>
+				<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/JAS007_Kawanishi_E15K1.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	chassis_on_BlendBoneShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	chassis_on_BlendBone	</node>
+			</nodes>
+			<material>
+				<identifier>	PBSX_Plane	</identifier>
+				<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/JAS007_Kawanishi_E15K1.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	hull_wireShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	hull_wire	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPWIREX_PBSX_Hull	</identifier>
+				<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/JAS007_Kawanishi_E15K1_wire.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	discShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	disc	</node>
+			</nodes>
+			<material>
+				<identifier>	PROPELLERMAT_propeller	</identifier>
+				<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/Japan_Disk_2Blade_03_alpha.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	disc_capShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	disc_cap	</node>
+			</nodes>
+			<material>
+				<identifier>	PBSX_Plane	</identifier>
+				<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/JAS007_Kawanishi_E15K1.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	disc_1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	disc_1	</node>
+			</nodes>
+			<material>
+				<identifier>	PROPELLERMAT_propeller	</identifier>
+				<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/Japan_Disk_2Blade_03_alpha.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	disc_cap_1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	disc_cap_1	</node>
+			</nodes>
+			<material>
+				<identifier>	PBSX_Plane	</identifier>
+				<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/JAS007_Kawanishi_E15K1.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	modShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	mod	</node>
+			</nodes>
+			<material>
+				<identifier>	PBSX_Plane	</identifier>
+				<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/JAS007_Kawanishi_E15K1.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	hull_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	hull	</node>
+			</nodes>
+			<material>
+				<identifier>	PBSX_Plane	</identifier>
+				<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/JAS007_Kawanishi_E15K1.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	chassis_off_BlendBone_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	chassis_off_BlendBone	</node>
+			</nodes>
+			<material>
+				<identifier>	PBSX_Plane	</identifier>
+				<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/JAS007_Kawanishi_E15K1.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	chassis_on_BlendBone_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	chassis_on_BlendBone	</node>
+			</nodes>
+			<material>
+				<identifier>	PBSX_Plane	</identifier>
+				<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/JAS007_Kawanishi_E15K1.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	hull_wire_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	hull_wire	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPWIREX_PBSX_Hull	</identifier>
+				<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/JAS007_Kawanishi_E15K1_wire.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	disc_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	disc	</node>
+			</nodes>
+			<material>
+				<identifier>	PROPELLERMAT_propeller	</identifier>
+				<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/Japan_Disk_2Blade_03_alpha.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	disc_cap_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	disc_cap	</node>
+			</nodes>
+			<material>
+				<identifier>	PBSX_Plane	</identifier>
+				<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/JAS007_Kawanishi_E15K1.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	disc_1_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	disc_1	</node>
+			</nodes>
+			<material>
+				<identifier>	PROPELLERMAT_propeller	</identifier>
+				<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/Japan_Disk_2Blade_03_alpha.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	disc_cap_1_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	disc_cap_1	</node>
+			</nodes>
+			<material>
+				<identifier>	PBSX_Plane	</identifier>
+				<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/JAS007_Kawanishi_E15K1.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	mod_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	mod	</node>
+			</nodes>
+			<material>
+				<identifier>	PBSX_Plane	</identifier>
+				<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/JAS007_Kawanishi_E15K1.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	hull_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	hull	</node>
+			</nodes>
+			<material>
+				<identifier>	PBSX_Plane	</identifier>
+				<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/JAS007_Kawanishi_E15K1.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	chassis_on_BlendBone_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	chassis_on_BlendBone	</node>
+			</nodes>
+			<material>
+				<identifier>	PBSX_Plane	</identifier>
+				<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/JAS007_Kawanishi_E15K1.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	hull_lodShape3	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	hull	</node>
+			</nodes>
+			<material>
+				<identifier>	PBSX_Plane	</identifier>
+				<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/JAS007_Kawanishi_E15K1.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	chassis_on_BlendBone_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	chassis_on_BlendBone	</node>
+			</nodes>
+			<material>
+				<identifier>	PBSX_Plane	</identifier>
+				<mfm>	PnFMods/SEA_ARP_Myoko/JSB018_Yamato_1944/aircraft/JAS007_Kawanishi_E15K1.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	5.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	hullShape	</renderSet>
+				<renderSet>	chassis_off_BlendBoneShape	</renderSet>
+				<renderSet>	chassis_on_BlendBoneShape	</renderSet>
+				<renderSet>	hull_wireShape	</renderSet>
+				<renderSet>	discShape	</renderSet>
+				<renderSet>	disc_capShape	</renderSet>
+				<renderSet>	disc_1Shape	</renderSet>
+				<renderSet>	disc_cap_1Shape	</renderSet>
+				<renderSet>	modShape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	20.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	hull_lod1Shape	</renderSet>
+				<renderSet>	chassis_off_BlendBone_lod1Shape	</renderSet>
+				<renderSet>	chassis_on_BlendBone_lod1Shape	</renderSet>
+				<renderSet>	hull_wire_lod1Shape	</renderSet>
+				<renderSet>	disc_lod1Shape	</renderSet>
+				<renderSet>	disc_cap_lod1Shape	</renderSet>
+				<renderSet>	disc_1_lod1Shape	</renderSet>
+				<renderSet>	disc_cap_1_lod1Shape	</renderSet>
+				<renderSet>	mod_lod1Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	40.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	hull_lod2Shape	</renderSet>
+				<renderSet>	chassis_on_BlendBone_lod2Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	200.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	hull_lodShape3	</renderSet>
+				<renderSet>	chassis_on_BlendBone_lod3Shape	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </JAS007_Kawanishi_E15K1.visual>
